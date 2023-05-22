@@ -1,0 +1,20 @@
+{
+  "name": "moodle",
+  "version": "1.1.0",
+  "description": "This is a program to scrape the participants of a Moodle course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["moodle", "mona"],
+  "author": {
+    "name" : "Leonardo Sartori"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "gender-detection-from-name": "^1.7.4",
+    "puppeteer": "^19.7.2"
+  }
+}
